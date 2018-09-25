@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:stretchColumns="6"
+    tools:context=".MainActivity"
+   >
+
+    <LinearLayout>
+
+
+        <TextView
+            android:id="@+id/labelDirections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="160dp"
+            android:text="@string/labelDirection"
+            android:textAlignment="center"
+            android:textSize="15dp"
+
+            />
+    </LinearLayout>
+<TableRow>
+
+
+    <TextView
+     android:id="@+id/labelGrade1"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:text="@string/grade1"
+     android:paddingLeft="150dp"
+     android:textSize="12sp"
+     android:textStyle="bold"
+     android:gravity="center"
+     android:layout_column="1"
+     />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:hint="@string/gradeHint"
+
+        />
+
+    <TextView
+        android:id="@+id/labelCredits1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/credits"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_column="1"
+        />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/creditHint"
+        android:textSize="12sp"
+        android:inputType="number" />
+
+
+</TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/labelGrade2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade2"
+            android:paddingLeft="150dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_column="1"
+            />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gradeHint"
+            android:textSize="12sp"
+
+            />
+
+        <TextView
+            android:id="@+id/labelCredits2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credits"
+            android:paddingLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/creditHint"
+            android:textSize="12sp"
+            android:inputType="number" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/labelGrade3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade3"
+            android:textSize="12sp"
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_column="1"
+            />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gradeHint"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/labelCredits3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/credits"
+            android:paddingLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:hint="@string/creditHint"
+            android:inputType="number" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/labelGrade4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade4"
+            android:textSize="12sp"
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_column="1"
+            />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gradeHint"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/labelCredits4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/credits"
+            android:paddingLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:hint="@string/creditHint"
+            android:inputType="number" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/labelGrade5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade5"
+            android:paddingLeft="150dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_column="1"
+            />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gradeHint"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/labelCredits5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/credits"
+            android:paddingLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:hint="@string/creditHint"
+            android:inputType="number" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+
+</TableRow>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calcBtn"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:text="@string/calculate"
+            android:textSize="9sp"
+            android:layout_marginLeft="170dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                android:text="@string/yourGPA"
+                android:textSize="17sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="6dp"
+                />
+
+            <TextView
+                android:id="@+id/displayGPA"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="4.0"
+                 />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</TableLayout>
